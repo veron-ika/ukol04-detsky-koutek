@@ -1,0 +1,12 @@
+a[href^="mailto:"] {
+    color: #0066cc; 
+    font-weight: bold; 
+    background-color: #e6f7ff; 
+    padding: 2px 4px; 
+    border-radius: 3px;
+    text-decoration: none; 
+  }
+  
+  a[href^="mailto:"]:hover {
+    background-color: #cceeff; 
+  }

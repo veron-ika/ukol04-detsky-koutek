@@ -1,0 +1,106 @@
+.center {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    font-family: 'Arial', sans-serif;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .center h3 {
+    font-size: 24px;
+    color: #4CAF50;
+    margin-bottom: 10px;
+  }
+  
+  .center p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.5;
+    margin-bottom: 8px;
+  }
+  
+  .center p.location {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: #4CAF50;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .location::before {
+    content: "📍";
+  }
+  
+  .center ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .center ul p {
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .center li {
+    font-size: 16px;
+    color: #666;
+    margin: 5px 0;
+    padding-left: 20px;
+    position: relative;
+  }
+  
+  .center li span {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .center p:last-child {
+    font-size: 14px;
+    color: #888;
+    font-style: italic;
+  }
+  
+  .opening-hours {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .opening-hours li {
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+  }
+  
+  .opening-hours span:first-child {
+    font-weight: bold;
+  }
+  
+  .center .capacity {
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #ff7860;
+    padding: 8px 12px;
+    border-radius: 12px;
+    display: inline-block;
+    margin-top: 10px;
+    text-align: center;
+    width: fit-content;
+    transition: background-color 0.3s ease;
+  }
+  
+  .center .capacity:hover {
+    background-color: #FF4500;
+  }
+  
+  .center .capacity::before {
+    content: "🪑"; 
+    margin-right: 8px;
+  }
